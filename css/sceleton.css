@@ -1,0 +1,212 @@
+* {
+    margin:0;
+}
+html, body {
+    height:100%;
+    background:#eef6ff;
+}
+#background {
+    height:100%;
+    width:100%;
+    position:absolute;
+	background: #eef6ff url(../img/map.jpg) center center no-repeat ;
+	background-size: 2320px auto;
+}
+#wrap {
+    position: relative;
+    width: 1024px;
+    height: 944px;
+    margin:0 auto;
+}
+#outer {
+    width: 1024px;
+    height: 944px;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -o-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -ms-transform-origin: top left;
+	position:absolute;
+}
+#main {
+    width:1024px;
+    height:944px;
+    margin:0 auto;
+    top:0;
+}
+#content {
+	width:1024px;
+	height:765px;
+	margin:0 auto;
+}
+#content_white{
+	height:715px;
+	width:984px;
+	margin:0 auto;
+	background:#fff;
+	border-top: 3px solid #022f46;
+	border-right: 1px solid #022f46;
+	border-left: 1px solid #022f46;
+	border-bottom: 1px solid #022f46;
+	padding:25px 19px 26px 20px;
+}
+#header {
+    height:92px;
+    width:968px;
+    margin: 0 auto;
+    padding:21px 0 25px;
+    position: relative;
+}
+#logo{
+	width:100px; 
+	height:92px;
+	float:left;
+	cursor:pointer;
+	border:none;
+	outline:none;
+}
+#imap{
+	border:none;
+	outline:none;
+	width:100px; 
+	height:92px;
+}
+#header_text {
+    left:25px;
+    width:335px;
+    font: bold 25px Georgia;
+    color:#022f46;
+    padding-top:18px;
+    text-transform: uppercase;
+    line-height:33px;
+	float:left;
+	position:relative;
+}
+.top_menu {
+    margin-bottom:4px;
+    margin-right:3px;
+    position:absolute;
+    background:#f1f1f1;
+    height:31px;
+    color:#606060;
+    font:16px 'Arial Narrow', Arial;
+    text-transform: uppercase;
+    line-height: 31px;
+    text-align:center;
+    outline:none;
+    text-decoration:none;
+}
+.top_menu:hover {
+    color:#fff;
+    background: #58bdf5;
+    cursor:pointer;
+}
+#tm_about {
+    left:466px;
+    top:34px;
+    width:141px;
+}
+#tm_law {
+    left:610px;
+    top:34px;
+    width:192px;
+}
+#tm_event {
+    left:805px;
+    top:34px;
+    width:117px;
+}
+#tm_article {
+    left:466px;
+    top:69px;
+    width:141px;
+}
+#tm_news {
+    left:610px;
+    top:69px;
+    width:192px;
+}
+#tm_contacts {
+    left:805px;
+    top:69px;
+    width:117px;
+}
+#top_search {
+    display:none;
+    top:33px;
+    left: 124px;
+    height: 68px;
+    position:absolute;
+    width: 795px;
+    background: #f1f1f1;
+    border: 1px solid #dedede;
+}
+#ts_text {
+    position:absolute;
+    top: 19px;
+    left: 19px;
+    height: 28px;
+    width: 522px;
+    background: #fff;
+    font: 14px Georgia;
+    color: #a1a1a1;
+    padding:0 14px;
+    border: 1px solid #bcbcbc;
+}
+#ts_text:focus {
+    color:#000;
+}
+#ts_button {
+    position:absolute;
+    left:585px;
+    top: 19px;
+    height: 30px;
+    width: 187px;
+    background: #58bdf5;
+    border:none;
+    outline: none!important;
+    text-decoration:none;
+    color:#fff;
+    font:16px 'Arial Narrow', Arial;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 30px!important;
+    cursor: pointer;
+}
+input[type="submit"]::-moz-focus-inner {
+    border:none;
+    outline:none;
+}
+#ts_close {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background: #bbb url(../img/search_close.png) center center no-repeat;
+    position:absolute;
+    right: 5px;
+    top: 5px;
+    height: 12px;
+    width: 12px;
+    cursor: pointer;
+}
+a.icon, 
+.icon {
+	width:24px;
+	height:19px;
+	left:944px;
+	position:absolute;
+	cursor:pointer;
+}
+#lang_uk {
+	background: url(../img/lang_uk.png) #eef6ff no-repeat;
+	top:26px;
+}
+#lang_gb {
+	background: url(../img/lang_gb.png) #eef6ff no-repeat;
+	top:52px;
+}
+#search_ico {
+	background: url(../img/search.png) #eef6ff no-repeat;
+	top:79px;
+	height:23px;
+}

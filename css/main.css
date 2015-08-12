@@ -1,0 +1,126 @@
+#header_text_main {
+    padding-left:23px;
+    width:840px;
+    font: bold 38px Georgia;
+    color:#022f46;
+    padding-top:0;
+    text-transform:uppercase;
+    line-height:92px;
+	position:relative;
+	float:left;
+}
+#content_main {
+	height:758px;
+	width:963px;
+	margin:0 auto;
+	background:#fff;
+	border-top:1px solid #95bcd5;
+	border-left:1px solid #3c83b2;
+	border-right:1px solid #004b7c;
+	border-bottom:1px solid #004776;
+	position:relative;
+	padding:1px 0 1px 1px;
+}
+.block {
+    width:320px;
+    height:252px;
+    float:left;
+    margin:0 1px 1px 0;
+    position:relative;
+}
+#block_a {
+    background:url(../img/block_a.png) no-repeat;
+}
+#block_b {
+    background:url(../img/block_b.png) no-repeat;
+}
+#block_c {
+    margin-right:0;
+    background:url(../img/block_c.png) no-repeat;
+}
+#block_d {
+    background:url(../img/block_d.png) no-repeat;
+}
+#block_e {
+    background:url(../img/block_e.png) no-repeat;
+}
+#block_f {
+    margin-right:0;
+    background:url(../img/block_f.png) no-repeat;
+}
+#block_g {
+    background:url(../img/block_g.png) no-repeat;
+	margin-bottom:0;
+}
+#block_h {
+    background:url(../img/block_h.png) no-repeat;
+	margin-bottom:0;
+}
+#block_i {
+    margin-right:0;
+    background:url(../img/block_i.png) no-repeat;
+	margin-bottom:0;
+}
+.block_title {
+    top:22px;
+    width:322px;
+    text-align:center;
+    font:bold 29px 'Arial Narrow', Arial;
+    color:#fff;
+    position:relative;
+    text-transform: uppercase;
+}
+.next {
+    bottom:17px;
+    right:16px;
+    width:80px;
+    height:33px;
+    position:absolute;
+    background:#58bdf5 url(../img/button_circle.png) no-repeat right top;
+    text-decoration:none;
+    outline:none;
+    line-height:33px!important;
+    font: 13px Verdana, Geneva;
+    color:#fff;
+    padding-left:15px;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+.next:hover {
+    background-color: #022f46;
+    cursor:pointer;
+}
+.b_list {
+    position:absolute;
+    top:69px;
+	left:42px;
+	font:19px 'Arial Narrow', Arial;
+	color:#e4e4e4;
+	text-transform: uppercase;
+	line-height:30px;
+}
+.list_date {
+	font:14px Lucida Sans Unicode;
+	color:#58bdf5;
+}
+.list_dash {
+	color:#bbd9e4;
+	padding:0 2px;
+}
+#b_list_a {
+	line-height:normal;
+}
+a.block_list {
+	text-decoration:none!important;
+	outline:none;
+	display:block;
+	color:#e4e4e4;
+	cursor:pointer;
+}
+a.block_list_x:hover, 
+a.block_list_a .list_text:hover {
+	text-decoration:underline!important;
+}
+.block_list_a {
+	padding:3px 0 8px 0;
+}

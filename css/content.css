@@ -1,0 +1,72 @@
+#textbar{
+	height:766px;
+	width:1004px;
+	position:relative;
+	float:right;
+	margin:-25px -20px 0 0;
+}
+.expert_img{
+	float:left;
+	margin:7px 10px 0 0;
+}
+.title{
+	color:#005d9a;
+	font:bold 21px 'Arial Narrow', Arial;
+	text-transform: uppercase;
+	margin-bottom:7px;
+	margin-top:10px;
+}
+#article_text{
+	color:#3f3f3f;
+	font:14px Georgia;
+	line-height:25px;
+	text-align:justify;
+	padding:0 15px 15px 0;
+	margin-right:10px;
+}
+#scrollbar1{
+    width:100%;
+    position: relative;
+}
+#scrollbar1 .viewport{
+    height:766px;
+    overflow:hidden;
+    position:relative;
+	padding:0 15px 0 0;
+	line-height:1;
+	outline:none;
+}
+#scrollbar1 .overview{
+    list-style:none;
+    position:absolute;
+    left:0;
+}
+#scrollbar1 .scrollbar{
+    position:absolute;
+    right:1px;
+    top:0;
+    width:7px;
+}
+#scrollbar1 .track{
+    background:#dbdbdb;
+    height:100%;
+    width:7px;
+    position:relative;
+    padding:0;
+}
+#scrollbar1 .thumb{
+    background:#022f46;
+    height:20px;
+    width:7px;
+    cursor:pointer;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:0;
+}
+#scrollbar1 .thumb .end{
+    background:#022f46;
+    overflow:hidden;
+    height:5px;
+    width:7px;
+}
